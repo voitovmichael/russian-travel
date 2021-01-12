@@ -1,0 +1,24 @@
+@import url(../../fonts/Inter/inter.css);
+
+.intro {
+  color: #fff;
+  font-family: 'Inter';
+}
+
+@media screen and (max-width: 320px) {
+  .intro {
+    min-width: 288px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .intro {
+    min-width: 720px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .intro {
+    max-width: 690px;
+  }
+}

@@ -1,0 +1,28 @@
+.lead {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  grid-template-rows: repeat(3, min-content);
+  justify-items: center;
+  font-family: 'Inter';
+  color: #fff;
+
+}
+
+@media screen and (min-width: 768px) {
+  .lead {
+    max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lead {
+    min-width: 90.625%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .lead {
+    max-width: 76.875%;
+  }
+}
