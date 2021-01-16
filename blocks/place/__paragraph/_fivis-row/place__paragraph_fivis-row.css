@@ -1,0 +1,12 @@
+@media screen and (min-width: 320px) {
+  .place__paragraph_fivis-row {
+    grid-area: 5/1/5/1;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .place__paragraph_fivis-row {
+    grid-area: 4/2/4/2;
+    margin-bottom: 0;
+  }
+}
