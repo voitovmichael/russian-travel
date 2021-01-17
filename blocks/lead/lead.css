@@ -9,20 +9,26 @@
 
 }
 
+@media screen and (min-width: 320px) {
+  .lead {
+    width: 320px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .lead {
-    max-width: 100%;
+    width: 768px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .lead {
-    min-width: 90.625%;
+    width: 90.625%;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .lead {
-    max-width: 76.875%;
+    width: 76.875%;
   }
 }

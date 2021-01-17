@@ -41,7 +41,7 @@
     grid-template-columns: repeat(auto-fit, 284px);
     grid-template-rows: repeat(auto-fit, 213px);
     gap: 16px 16px;
-    max-width: 1184px;
+    width: 1184px;
     min-height: 671px;
   }
 }
