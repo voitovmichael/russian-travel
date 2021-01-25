@@ -1,0 +1,19 @@
+.footer__links {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+
+@media screen and (min-width: 320px) {
+  .footer__links {
+    margin-bottom: 47px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer__links {
+    margin-bottom: 0px;
+  }
+}
