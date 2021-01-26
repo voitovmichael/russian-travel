@@ -1,8 +1,7 @@
-@import url(../../../fonts/Inter/inter.css);
-
 .lead__subtitle {
   margin: 0 0 56px;
   text-align: center;
+  font-weight: 400;
 }
 
 @media screen and (min-width: 320px) {

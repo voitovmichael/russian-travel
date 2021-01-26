@@ -3,6 +3,7 @@
 .intro {
   color: #fff;
   font-family: 'Inter';
+  font-style: normal;
 }
 
 @media screen and (min-width: 320px) {
