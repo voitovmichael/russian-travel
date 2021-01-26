@@ -9,6 +9,7 @@
   .lead__subtitle {
     font-size: 16px;
     line-height: 1.25;
+    width: 90%;
   }
 }
 
@@ -16,5 +17,6 @@
   .lead__subtitle {
     font-size: 30px;
     line-height: 1.2;
+    width: 640px;
   }
 }

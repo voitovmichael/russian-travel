@@ -5,20 +5,26 @@
   font-family: 'Inter';
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) {
   .intro {
-    width: 288px;
+    width: 90%;
   }
 }
 
 @media screen and (min-width: 768px) {
   .intro {
-    width: 720px;
+    width: 93.75%;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .intro {
-    width: 690px;
+    width: 67.38%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .intro {
+    width: 720px;
   }
 }

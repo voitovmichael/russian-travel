@@ -18,7 +18,6 @@
   .cover {
     min-height: 63vmin;
     min-width: 320px;
-    margin-bottom: 64px
   }
 }
 
@@ -31,14 +30,12 @@
 @media screen and (min-width: 768px) {
   .cover {
     min-height: 55vmax;
-    margin-bottom: 88px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .cover {
     min-height: 63vmax;
-    margin-bottom: 92px;
   }
 }
 

@@ -1,0 +1,15 @@
+.footer_margin-travel-russia {
+  
+}
+
+@media screen and (min-width: 320px) {
+  .footer_margin-travel-russia {
+    margin-bottom: 24px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer_margin-travel-russia {
+    margin: 0 auto 24px;
+  }
+}
