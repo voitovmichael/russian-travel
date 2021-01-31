@@ -7,6 +7,7 @@
 /*pages*/
 @import url(../blocks/page/page.css);
 @import url(../blocks/page/__header/page__header.css);
+@import url(../blocks/page/__footer/page__footer.css);
 @import url(../blocks/page/__link/page__link.css);
 
 /*header*/
@@ -24,7 +25,6 @@
 @import url(../blocks/main/__photo-grid/main__photo-grid.css);
 @import url(../blocks/main/__places/main__places.css);
 @import url(../blocks/main/__cover/main__cover.css);
-@import url(../blocks/main/__footer/main__footer.css);
 
 /*lead*/
 @import url(../blocks/lead/lead.css);
