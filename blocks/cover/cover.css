@@ -1,40 +1,27 @@
-@import url(../../fonts/Inter/inter.css);
 .cover {
-  margin: 0 auto;
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   color: #fff;
-  font-family: 'Inter';
+  font-family: 'Inter', 'Arial', 'Helvetica';
   font-style: normal;
+  
+}
+ 
+.cover:hover .cover__background::after{
+    opacity: .8;
 }
 
-.cover:hover .cover__overlay{
-    opacity: 0.2;
-}
-
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 429.5px) {
   .cover {
     min-height: 63vmin;
     min-width: 320px;
   }
 }
 
-@media screen and (min-width: 430px) {
-  .cover {
-    min-height: 63vmax;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .cover {
-    min-height: 55vmax;
-  }
-}
-
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 430px) and (max-width: 1279.5px) {
   .cover {
     min-height: 63vmax;
   }
@@ -43,6 +30,6 @@
 @media screen and (min-width: 1280px) {
   .cover {
     max-width: 1184px;
-    min-height: 59vmax;
+    max-height: 740px;
   }
 }

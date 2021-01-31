@@ -1,4 +1,35 @@
 .cover__link {
   text-decoration: none;
   color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  z-index: 2;
+}
+
+@media screen and (max-width: 429.5px) {
+  .cover__link {
+    min-height: 63vmin;
+  }
+}
+
+@media screen and (min-width: 430px) and (max-width: 767.5px) {
+  .cover__link {
+    min-height: 63vmax;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023.2px) {
+  .cover__link {
+    min-height: 55vmax;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .cover__link {
+    min-height: 59vmax;
+    max-height: 740px;
+  }
 }

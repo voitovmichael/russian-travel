@@ -1,0 +1,28 @@
+
+.main__lead {
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 767.5px) {
+  .main__lead {
+    margin-bottom: 64px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .main__lead {
+    margin-bottom: 88px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .main__lead {
+    margin-bottom: 92px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .main__lead {
+    margin-bottom: 74px;
+  }
+}

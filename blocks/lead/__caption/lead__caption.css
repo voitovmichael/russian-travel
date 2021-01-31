@@ -1,7 +1,7 @@
-@import url(../../../fonts/Inter/inter.css);
-
 .lead__caption {
   justify-self: start;
   font-size: 10px;
   line-height: 1.4;
+  letter-spacing: .15em;
+  text-transform: uppercase;
 }

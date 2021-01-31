@@ -4,9 +4,13 @@
   line-height: 1.63;
 }
 
-@media screen and (min-width: 320px) {
+.place__paragraph:last-of-type {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 767.5px) {
   .place__paragraph {
-    grid-area: 4/1/4/1;
+    grid-area: auto/1/auto/1;
     font-size: 16px;
     margin: 0 16px 25px;
   }
@@ -14,7 +18,7 @@
 
 @media screen and (min-width: 768px) {
   .place__paragraph {
-    grid-area: 3/2/3/2;
+    grid-area: auto/2/auto/2;
     margin:0 0 25px;
   }
 }
