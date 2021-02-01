@@ -9,27 +9,58 @@
   font-style: normal;
   
 }
- 
-.cover:hover .cover__background::after{
-    opacity: .8;
+
+.cover::after {
+  position: absolute;
+  top: 0;
+  background-image: url(../../images/cover/cover-train-hub.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  content: ' ';
+  height: 100%;
+  width: 100%;
+  display: block;
+  opacity: .7;
+  background-color: #2A2C2F;
+  transition: opacity .9s linear;
 }
 
-@media screen and (max-width: 429.5px) {
+.cover:hover::after{
+    opacity: .2;
+}
+
+@media screen and (max-width: 429.5px){
   .cover {
-    min-height: 63vmin;
-    min-width: 320px;
+    width: 320px;
   }
 }
 
-@media screen and (min-width: 430px) and (max-width: 1279.5px) {
+@media screen and (min-width: 430px) and (max-width: 653.5px) {
   .cover {
-    min-height: 63vmax;
+    width: 430px;
+  }
+}
+
+@media screen and (min-width: 654px) and (max-width: 767.5px) {
+  .cover {
+    width: 654px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .cover {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cover {
+    width: 1024px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .cover {
-    max-width: 1184px;
-    max-height: 740px;
+    width: 1184px;
   }
 }

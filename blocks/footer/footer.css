@@ -8,14 +8,12 @@
 @media screen and (max-width: 767.5px) {
   .footer {
     width: 58.1%;
-    margin-bottom: 24px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .footer {
     width: 93.75%;
-    margin: 0 auto 24px;
   }
 }
 
