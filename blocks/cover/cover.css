@@ -7,6 +7,7 @@
   color: #fff;
   font-family: 'Inter', 'Arial', 'Helvetica';
   font-style: normal;
+  width: 100%;
   
 }
 
@@ -31,36 +32,36 @@
 
 @media screen and (max-width: 429.5px){
   .cover {
-    width: 320px;
+    max-width: 320px;
   }
 }
 
 @media screen and (min-width: 430px) and (max-width: 653.5px) {
   .cover {
-    width: 430px;
+    max-width: 430px;
   }
 }
 
 @media screen and (min-width: 654px) and (max-width: 767.5px) {
   .cover {
-    width: 654px;
+    max-width: 654px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .cover {
-    width: 768px;
+    max-width: 768px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .cover {
-    width: 1024px;
+    max-width: 1024px
   }
 }
 
 @media screen and (min-width: 1280px) {
   .cover {
-    width: 1184px;
+    max-width: 1184px;
   }
 }
