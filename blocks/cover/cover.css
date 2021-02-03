@@ -8,26 +8,27 @@
   font-family: 'Inter', 'Arial', 'Helvetica';
   font-style: normal;
   width: 100%;
+  background-image: url(../../images/cover/cover-train-hub.png);
+  background-size: contain;
+  background-repeat: no-repeat;
   
 }
 
 .cover::after {
   position: absolute;
   top: 0;
-  background-image: url(../../images/cover/cover-train-hub.png);
-  background-size: contain;
-  background-repeat: no-repeat;
+  left: 0;
   content: ' ';
   height: 100%;
   width: 100%;
   display: block;
-  opacity: .7;
+  opacity: .3;
   background-color: #2A2C2F;
   transition: opacity .9s linear;
 }
 
 .cover:hover::after{
-    opacity: .2;
+    opacity: .8;
 }
 
 @media screen and (max-width: 429.5px){
